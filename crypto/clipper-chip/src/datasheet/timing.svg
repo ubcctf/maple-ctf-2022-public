@@ -1,0 +1,254 @@
+<svg class="WaveDrom" width="540" height="150" overflow="hidden" version="1.1" viewBox="0 0 540 150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <style type="text/css">text{font-size:11pt;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;fill-opacity:1;font-family:DejaVu Sans}.h1{font-size:33pt;font-weight:bold}.h2{font-size:27pt;font-weight:bold}.h3{font-size:20pt;font-weight:bold}.h4{font-size:14pt;font-weight:bold}.h5{font-size:11pt;font-weight:bold}.h6{font-size:8pt;font-weight:bold}.muted{fill:#aaa}.warning{fill:#f6b900}.error{fill:#f60000}.info{fill:#000000}.success{fill:#00ab00}.s1{fill:none;stroke:#000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none}.s2{fill:none;stroke:#000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none}.s3{color:#000;fill:none;stroke:#000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 3;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible}.s4{color:#000;fill:none;stroke:#000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible}.s5{fill:#fff;stroke:none}.s6{fill:#000;fill-opacity:1;stroke:none}.s7{color:#000;fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible}.s8{color:#000;fill:#ffffb4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible}.s9{color:#000;fill:#ffe0b9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible}.s10{color:#000;fill:#b9e0ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible}.s11{color:#000;fill:#ccfdfe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible}.s12{color:#000;fill:#cdfdc5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible}.s13{color:#000;fill:#f0c1fb;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible}.s14{color:#000;fill:#f5c2c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible}.s15{fill:#0041c4;fill-opacity:1;stroke:none}.s16{fill:none;stroke:#0041c4;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none}</style>
+ <defs>
+  <g id="d">
+   <path class="s1" d="m0 20v-20h20"/>
+  </g>
+  <g id="e">
+   <path class="s1" d="m0 0v20h20"/>
+  </g>
+  <g id="c">
+   <path class="s1" d="m0 20h20"/>
+  </g>
+  <g id="k">
+   <path class="s1" d="m0 20h3l6-20h11"/>
+  </g>
+  <g id="a">
+   <path class="s1" d="m0 0h20"/>
+  </g>
+  <g id="j">
+   <path class="s1" d="m0 0h3l6 20h11"/>
+  </g>
+  <g id="b">
+   <path class="s1" d="m0 20h20"/>
+   <path class="s1" d="m0 0h20"/>
+   <path class="s2" d="m0 5 5-5"/>
+   <path class="s2" d="M0,10 10,0"/>
+   <path class="s2" d="M0,15 15,0"/>
+   <path class="s2" d="M0,20 20,0"/>
+   <path class="s2" d="M5,20 20,5"/>
+   <path class="s2" d="m10 20 10-10"/>
+   <path class="s2" d="m15 20 5-5"/>
+  </g>
+  <g id="f">
+   <path class="s5" d="m7-2h-4c-5 0-5 24-10 24h4c5 0 5-24 10-24z"/>
+   <path class="s1" d="m-7 22c5 0 5-24 10-24"/>
+   <path class="s1" d="m-3 22c5 0 5-24 10-24"/>
+  </g>
+  <g id="m">
+   <path class="s8" d="m9 0h11v20h-11l-3-10z"/>
+   <path class="s1" d="m0 20h3l6-20h11"/>
+   <path class="s1" d="m0 0h3l6 20h11"/>
+   <path class="s2" d="m0 5 3.5-3.5"/>
+   <path class="s2" d="m0 10 4.5-4.5"/>
+   <path class="s2" d="m0 15 6-6"/>
+   <path class="s2" d="m0 20 4-4"/>
+  </g>
+  <g id="i">
+   <path class="s8" d="m20 20h-20v-20h20"/>
+   <path class="s1" d="m0 20h20"/>
+   <path class="s1" d="m0 0h20"/>
+  </g>
+  <g id="h">
+   <path class="s9" d="m20 20h-20v-20h20"/>
+   <path class="s1" d="m0 20h20"/>
+   <path class="s1" d="m0 0h20"/>
+  </g>
+  <g id="o">
+   <path class="s9" d="m0 0v20h3l3-10-3-10"/>
+   <path class="s1" d="m0 0h3l6 20h11"/>
+   <path class="s1" d="m0 20h3l6-20h11"/>
+   <path class="s2" d="m20 15-5 5"/>
+   <path class="s2" d="m20 10-10 10"/>
+   <path class="s2" d="M20,5 8,17"/>
+   <path class="s2" d="M20,0 7,13"/>
+   <path class="s2" d="m15 0-8 8"/>
+   <path class="s2" d="m10 0-1 1"/>
+  </g>
+  <g id="l">
+   <path class="s10" d="m9 0h11v20h-11l-3-10z"/>
+   <path class="s1" d="m0 20h3l6-20h11"/>
+   <path class="s1" d="m0 0h3l6 20h11"/>
+   <path class="s2" d="m0 5 3.5-3.5"/>
+   <path class="s2" d="m0 10 4.5-4.5"/>
+   <path class="s2" d="m0 15 6-6"/>
+   <path class="s2" d="m0 20 4-4"/>
+  </g>
+  <g id="g">
+   <path class="s10" d="m20 20h-20v-20h20"/>
+   <path class="s1" d="m0 20h20"/>
+   <path class="s1" d="m0 0h20"/>
+  </g>
+  <g id="n">
+   <path class="s10" d="m0 0v20h3l3-10-3-10"/>
+   <path class="s1" d="m0 0h3l6 20h11"/>
+   <path class="s1" d="m0 20h3l6-20h11"/>
+   <path class="s2" d="m20 15-5 5"/>
+   <path class="s2" d="m20 10-10 10"/>
+   <path class="s2" d="M20,5 8,17"/>
+   <path class="s2" d="M20,0 7,13"/>
+   <path class="s2" d="m15 0-8 8"/>
+   <path class="s2" d="m10 0-1 1"/>
+  </g>
+  <g id="p">
+   <path class="s9" d="m9 0h11v20h-11l-3-10z"/>
+   <path class="s8" d="m3 0h-3v20h3l3-10z"/>
+   <path class="s1" d="m0 0h3l6 20h11"/>
+   <path class="s1" d="m0 20h3l6-20h11"/>
+  </g>
+ </defs>
+ <g transform="translate(120.5 .5)">
+  <g stroke="#888" stroke-dasharray="1, 3" stroke-width=".5">
+   <line y2="150"/>
+   <line x1="40" x2="40" y2="150"/>
+   <line x1="80" x2="80" y2="150"/>
+   <line x1="120" x2="120" y2="150"/>
+   <line x1="160" x2="160" y2="150"/>
+   <line x1="200" x2="200" y2="150"/>
+   <line x1="240" x2="240" y2="150"/>
+   <line x1="280" x2="280" y2="150"/>
+   <line x1="320" x2="320" y2="150"/>
+   <line x1="360" x2="360" y2="150"/>
+   <line x1="400" x2="400" y2="150"/>
+  </g>
+  <g transform="translate(0,5)">
+   <text class="info" x="-10" y="15" text-anchor="end" xml:space="preserve"><tspan>CLK</tspan></text>
+   <use width="100%" height="100%" xlink:href="#d"/>
+   <use transform="translate(20)" width="100%" height="100%" xlink:href="#e"/>
+   <use transform="translate(40)" width="100%" height="100%" xlink:href="#d"/>
+   <use transform="translate(60)" width="100%" height="100%" xlink:href="#e"/>
+   <use transform="translate(80)" width="100%" height="100%" xlink:href="#d"/>
+   <use transform="translate(100)" width="100%" height="100%" xlink:href="#e"/>
+   <use transform="translate(120)" width="100%" height="100%" xlink:href="#d"/>
+   <use transform="translate(140)" width="100%" height="100%" xlink:href="#e"/>
+   <use transform="translate(160)" width="100%" height="100%" xlink:href="#d"/>
+   <use transform="translate(180)" width="100%" height="100%" xlink:href="#e"/>
+   <use transform="translate(200)" width="100%" height="100%" xlink:href="#d"/>
+   <use transform="translate(220)" width="100%" height="100%" xlink:href="#e"/>
+   <use transform="translate(240)" width="100%" height="100%" xlink:href="#d"/>
+   <use transform="translate(260)" width="100%" height="100%" xlink:href="#e"/>
+   <use transform="translate(280)" width="100%" height="100%" xlink:href="#d"/>
+   <use transform="translate(300)" width="100%" height="100%" xlink:href="#e"/>
+   <use transform="translate(320)" width="100%" height="100%" xlink:href="#d"/>
+   <use transform="translate(340)" width="100%" height="100%" xlink:href="#e"/>
+   <use transform="translate(360)" width="100%" height="100%" xlink:href="#d"/>
+   <use transform="translate(380)" width="100%" height="100%" xlink:href="#e"/>
+  </g>
+  <g transform="translate(0,35)">
+   <text class="info" x="-10" y="15" text-anchor="end" xml:space="preserve"><tspan text-decoration="overline" style="text-decoration-line:overline">RST</tspan></text>
+   <use width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(20)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(40)" width="100%" height="100%" xlink:href="#j"/>
+   <use transform="translate(60)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(80)" width="100%" height="100%" xlink:href="#k"/>
+   <use transform="translate(100)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(120)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(140)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(160)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(180)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(200)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(220)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(240)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(260)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(280)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(300)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(320)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(340)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(360)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(380)" width="100%" height="100%" xlink:href="#a"/>
+   <path d="m-37.02 3.0219h27.063" fill="none" stroke="#000" stroke-width="1.0438px"/>
+  </g>
+  <g transform="translate(0,65)">
+   <text class="info" x="-10" y="15" text-anchor="end" xml:space="preserve"><tspan>MODE</tspan></text>
+   <use width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(20)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(40)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(60)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(80)" width="100%" height="100%" xlink:href="#k"/>
+   <use transform="translate(100)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(120)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(140)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(160)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(180)" width="100%" height="100%" xlink:href="#a"/>
+   <use transform="translate(200)" width="100%" height="100%" xlink:href="#j"/>
+   <use transform="translate(220)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(240)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(260)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(280)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(300)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(320)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(340)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(360)" width="100%" height="100%" xlink:href="#c"/>
+   <use transform="translate(380)" width="100%" height="100%" xlink:href="#c"/>
+  </g>
+  <g transform="translate(0,95)">
+   <text class="info" x="-10" y="15" text-anchor="end" xml:space="preserve"><tspan>IN</tspan></text>
+   <use width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(20)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(40)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(60)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(80)" width="100%" height="100%" xlink:href="#m"/>
+   <use transform="translate(100)" width="100%" height="100%" xlink:href="#i"/>
+   <use transform="translate(120)" width="100%" height="100%" xlink:href="#i"/>
+   <use transform="translate(140)" width="100%" height="100%" xlink:href="#i"/>
+   <use transform="translate(160)" width="100%" height="100%" xlink:href="#i"/>
+   <use transform="translate(180)" width="100%" height="100%" xlink:href="#i"/>
+   <use transform="translate(200)" width="100%" height="100%" xlink:href="#p"/>
+   <use transform="translate(220)" width="100%" height="100%" xlink:href="#h"/>
+   <use transform="translate(240)" width="100%" height="100%" xlink:href="#h"/>
+   <use transform="translate(260)" width="100%" height="100%" xlink:href="#h"/>
+   <use transform="translate(280)" width="100%" height="100%" xlink:href="#h"/>
+   <use transform="translate(300)" width="100%" height="100%" xlink:href="#h"/>
+   <use transform="translate(320)" width="100%" height="100%" xlink:href="#h"/>
+   <use transform="translate(340)" width="100%" height="100%" xlink:href="#h"/>
+   <use transform="translate(360)" width="100%" height="100%" xlink:href="#o"/>
+   <use transform="translate(380)" width="100%" height="100%" xlink:href="#b"/>
+   <text x="146" y="15" text-anchor="middle" xml:space="preserve"><tspan>key</tspan></text>
+   <text x="286" y="15" text-anchor="middle" xml:space="preserve"><tspan>plaintext</tspan></text>
+  </g>
+  <g transform="translate(0,125)">
+   <text class="info" x="-10" y="15" text-anchor="end" xml:space="preserve"><tspan>OUT</tspan></text>
+   <use width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(20)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(40)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(60)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(80)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(100)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(120)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(140)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(160)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(180)" width="100%" height="100%" xlink:href="#b"/>
+   <use transform="translate(200)" width="100%" height="100%" xlink:href="#l"/>
+   <use transform="translate(220)" width="100%" height="100%" xlink:href="#g"/>
+   <use transform="translate(240)" width="100%" height="100%" xlink:href="#g"/>
+   <use transform="translate(260)" width="100%" height="100%" xlink:href="#g"/>
+   <use transform="translate(280)" width="100%" height="100%" xlink:href="#g"/>
+   <use transform="translate(300)" width="100%" height="100%" xlink:href="#g"/>
+   <use transform="translate(320)" width="100%" height="100%" xlink:href="#g"/>
+   <use transform="translate(340)" width="100%" height="100%" xlink:href="#g"/>
+   <use transform="translate(360)" width="100%" height="100%" xlink:href="#n"/>
+   <use transform="translate(380)" width="100%" height="100%" xlink:href="#b"/>
+   <text x="286" y="15" text-anchor="middle" xml:space="preserve"><tspan>ciphertext</tspan></text>
+  </g>
+  <g transform="translate(0,5)">
+   <use transform="translate(180)" width="100%" height="100%" xlink:href="#f"/>
+   <use transform="translate(340)" width="100%" height="100%" xlink:href="#f"/>
+  </g>
+  <g transform="translate(0,35)">
+   <use transform="translate(180)" width="100%" height="100%" xlink:href="#f"/>
+   <use transform="translate(340)" width="100%" height="100%" xlink:href="#f"/>
+  </g>
+  <g transform="translate(0,65)">
+   <use transform="translate(180)" width="100%" height="100%" xlink:href="#f"/>
+   <use transform="translate(340)" width="100%" height="100%" xlink:href="#f"/>
+  </g>
+  <g transform="translate(0,95)">
+   <use transform="translate(180)" width="100%" height="100%" xlink:href="#f"/>
+   <use transform="translate(340)" width="100%" height="100%" xlink:href="#f"/>
+  </g>
+  <g transform="translate(0,125)">
+   <use transform="translate(180)" width="100%" height="100%" xlink:href="#f"/>
+   <use transform="translate(340)" width="100%" height="100%" xlink:href="#f"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+    "sketch": "challemu\\challemu.ino",
+    "board": "arduino:avr:leonardo",
+    "output": "challemu\\arduino-build",
+    "programmer": "avrisp"
+}

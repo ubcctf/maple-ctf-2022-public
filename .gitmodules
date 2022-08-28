@@ -1,0 +1,6 @@
+[submodule "rev\\badcontroller\\src\\HID"]
+	path = rev\\badcontroller\\src\\HID
+	url = https://github.com/NicoHood/HID.git
+[submodule "rev\\badcontroller\\src\\tiny-AES-c"]
+	path = rev\\badcontroller\\src\\tiny-AES-c
+	url = https://github.com/kokke/tiny-AES-c.git

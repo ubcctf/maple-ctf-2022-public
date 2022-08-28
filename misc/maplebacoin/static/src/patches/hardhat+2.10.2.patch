@@ -1,0 +1,23 @@
+diff --git a/node_modules/hardhat/builtin-tasks/run.js b/node_modules/hardhat/builtin-tasks/run.js
+index 96b77e9..2d5b9e9 100644
+--- a/node_modules/hardhat/builtin-tasks/run.js
++++ b/node_modules/hardhat/builtin-tasks/run.js
+@@ -14,7 +14,8 @@ const log = (0, debug_1.default)("hardhat:core:tasks:run");
+ (0, config_env_1.task)(task_names_1.TASK_RUN, "Runs a user-defined script after compiling the project")
+     .addPositionalParam("script", "A js file to be run within hardhat's environment")
+     .addFlag("noCompile", "Don't compile before running this task")
+-    .setAction(async ({ script, noCompile }, { run, hardhatArguments }) => {
++    .addPositionalParam("arg", "Argument to pass to script")
++    .setAction(async ({ script, noCompile, arg}, { run, hardhatArguments }) => {
+     if (!(await fs_extra_1.default.pathExists(script))) {
+         throw new errors_1.HardhatError(errors_list_1.ERRORS.BUILTIN_TASKS.RUN_FILE_NOT_FOUND, {
+             script,
+@@ -25,7 +26,7 @@ const log = (0, debug_1.default)("hardhat:core:tasks:run");
+     }
+     log(`Running script ${script} in a subprocess so we can wait for it to complete`);
+     try {
+-        process.exitCode = await (0, scripts_runner_1.runScriptWithHardhat)(hardhatArguments, script);
++        process.exitCode = await (0, scripts_runner_1.runScriptWithHardhat)(hardhatArguments, script, [arg]);
+     }
+     catch (error) {
+         if (error instanceof Error) {

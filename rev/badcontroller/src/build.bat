@@ -1,0 +1,1 @@
+cl challdriver.c /Fo tiny-AES-c\aes.c /Fo HID\extras\rawhid\hid_WINDOWS.c /link /LIBPATH:%WINSDK_UM64_PATH% /PDBSTRIPPED setupapi.lib hid.lib user32.lib

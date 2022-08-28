@@ -1,0 +1,9 @@
+{
+    signal: [
+        {name: 'CLK', wave: 'p...|...|.'},
+        {name: '<o>RST</o>', wave: '101.|...|.'},
+        {name: 'MODE', wave: '0.1.|0..|.'},
+        {name: 'IN', wave: 'x.3.|4..|x', data: ['key', 'plaintext']},
+        {name: 'OUT', wave: 'x...|5..|x', data: ['ciphertext']}
+    ]
+}

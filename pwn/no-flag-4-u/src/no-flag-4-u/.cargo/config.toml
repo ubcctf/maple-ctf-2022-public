@@ -1,0 +1,5 @@
+[build]
+rustflags = ["-C", "force-frame-pointers=yes"]
+
+[env]
+INLINE_C_RS_CFLAGS = "-Wno-error=free-nonheap-object -fno-builtin"

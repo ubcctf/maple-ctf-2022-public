@@ -1,0 +1,3 @@
+- Intended exploit is by writing a contract to interact with the given contracts.
+- There is no intended exploit in the web interface.
+- Note: The actual live infrastructure is different than the provided, however, the solidity code, testnet configuration, and solve.js should be the same.

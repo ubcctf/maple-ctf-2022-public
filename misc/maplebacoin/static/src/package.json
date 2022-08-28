@@ -1,0 +1,15 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "start": "node ui/index.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "express": "^4.18.1",
+    "ganache": "^7.4.1",
+    "hardhat": "^2.9.4",
+    "raw-body": "^2.5.1"
+  }
+}

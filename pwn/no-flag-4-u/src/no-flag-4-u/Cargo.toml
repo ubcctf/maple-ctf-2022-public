@@ -1,0 +1,38 @@
+[package]
+name = "no-flag-4-u"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2"
+zeroize = "1.5"
+inline-c = "0.1"
+whoami = "1.2"
+chrono = "0.4"
+rand = "0.8"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "log_server"
+path = "src/log_server.rs"
+
+[profile.release]
+strip = true
+opt-level = "z"
+lto = true
+
+[features]
+enable_restrict_n_directive	= []
+enable_env_config = []
+enable_restrictive_seccomp = []
+disable_read_hooks = []
+disable_write_hooks = []
+disable_gets_hooks = []
+disable_puts_hooks = []
+disable_scanf_hooks = []
+disable_printf_hooks = []
+disable_heap_hooks = []

@@ -1,0 +1,20 @@
+input {
+  text-shadow: none !important;
+  margin: 10px auto;
+}
+
+.center-container {
+  margin: 50px auto;
+  position: static !important;
+  width: 60%;
+  padding: 30px !important;
+}
+
+* {
+  user-select: text !important;
+}
+
+html {
+  background-image: url("https://opengameart.org/sites/default/files/Preview_143.png");
+  background-size: cover;
+}

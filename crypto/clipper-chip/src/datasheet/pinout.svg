@@ -1,0 +1,41 @@
+<svg width="60mm" height="40mm" version="1.1" viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#fff" stroke="#000">
+  <rect x="12.249" y="14.195" width="5.5016" height="3.5016" stroke-width=".49843"/>
+  <rect x="12.249" y="6.1951" width="5.5016" height="3.5016" stroke-width=".49843"/>
+  <rect x="17.753" y="3.1984" width="24.495" height="33.495" stroke-width=".50519"/>
+ </g>
+ <circle cx="21.5" cy="7.4458" r="1.5"/>
+ <g fill="#fff" stroke="#000" stroke-width=".49843">
+  <rect x="12.249" y="22.195" width="5.5016" height="3.5016"/>
+  <rect x="12.249" y="30.195" width="5.5016" height="3.5016"/>
+  <rect x="42.249" y="14.195" width="5.5016" height="3.5016"/>
+  <rect x="42.249" y="6.1951" width="5.5016" height="3.5016"/>
+  <rect x="42.249" y="22.195" width="5.5016" height="3.5016"/>
+  <rect x="42.249" y="30.195" width="5.5016" height="3.5016"/>
+ </g>
+ <g font-family="'DejaVu Sans'" stroke-width=".26458">
+  <g font-size="2.8222px" text-anchor="middle">
+   <text x="14.975195" y="8.9745398" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="14.975195" y="8.9745398" font-size="2.8222px" stroke-width=".26458" text-align="center" text-anchor="middle">1</tspan></text>
+   <text x="15.037896" y="16.993132" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="15.037896" y="16.993132" font-size="2.8222px" stroke-width=".26458" text-align="center" text-anchor="middle">2</tspan></text>
+   <text x="15.005512" y="24.973148" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="15.005512" y="24.973148" font-size="2.8222px" stroke-width=".26458" text-align="center" text-anchor="middle">3</tspan></text>
+   <text x="15.010335" y="32.974529" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="15.010335" y="32.974529" font-size="2.8222px" stroke-width=".26458" text-align="center" text-anchor="middle">4</tspan></text>
+   <text x="45.014469" y="32.954548" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="45.014469" y="32.954548" font-size="2.8222px" stroke-width=".26458" text-align="center" text-anchor="middle">5</tspan></text>
+   <text x="44.990353" y="24.973148" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="44.990353" y="24.973148" font-size="2.8222px" stroke-width=".26458" text-align="center" text-anchor="middle">6</tspan></text>
+   <text x="45.004822" y="16.974527" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="45.004822" y="16.974527" font-size="2.8222px" stroke-width=".26458" text-align="center" text-anchor="middle">7</tspan></text>
+   <text x="45.000687" y="8.9731627" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="45.000687" y="8.9731627" font-size="2.8222px" stroke-width=".26458" text-align="center" text-anchor="middle">8</tspan></text>
+  </g>
+  <g font-size="3.5278px">
+   <text x="48.972439" y="9.2299919" style="line-height:1.25" xml:space="preserve"><tspan x="48.972439" y="9.2299919" stroke-width=".26458">V<tspan baseline-shift="sub" font-size="65%">CC</tspan></tspan></text>
+   <text x="48.972439" y="17.229979" style="line-height:1.25" xml:space="preserve"><tspan x="48.972439" y="17.229979" stroke-width=".26458">OUT</tspan></text>
+   <text x="48.972439" y="25.22998" style="line-height:1.25" xml:space="preserve"><tspan x="48.972439" y="25.22998" stroke-width=".26458">N/C</tspan></text>
+   <text x="48.972439" y="33.22998" style="line-height:1.25" xml:space="preserve"><tspan x="48.972439" y="33.22998" stroke-width=".26458">RST</tspan></text>
+   <g text-anchor="end">
+    <text x="10.890974" y="33.22998" text-align="end" style="line-height:1.25" xml:space="preserve"><tspan x="10.890974" y="33.22998" stroke-width=".26458" text-align="end" text-anchor="end">GND</tspan></text>
+    <text x="10.890974" y="25.22998" text-align="end" style="line-height:1.25" xml:space="preserve"><tspan x="10.890974" y="25.22998" stroke-width=".26458" text-align="end" text-anchor="end">N/C</tspan></text>
+    <text x="10.890974" y="17.22998" text-align="end" style="line-height:1.25" xml:space="preserve"><tspan x="10.890974" y="17.22998" stroke-width=".26458" text-align="end" text-anchor="end">IN</tspan></text>
+    <text x="10.890974" y="9.2299929" text-align="end" style="line-height:1.25" xml:space="preserve"><tspan x="10.890974" y="9.2299929" stroke-width=".26458" text-align="end" text-anchor="end">MODE</tspan></text>
+   </g>
+  </g>
+ </g>
+ <path d="m49.319 30.096h6.509" fill="none" stroke="#000" stroke-width=".3"/>
+</svg>

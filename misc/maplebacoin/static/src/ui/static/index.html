@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<style>
+    input#code {
+        font-family: monospace;
+        height: 80vh;
+        width: 50vh;
+    }
+</style>
+<form action="/deploy" method="POST" enctype="text/plain">
+    <label for="code">Solidity Code:</label><br>
+    <textarea id="code" name="code" rows="37" cols="120">
+//SPDX-License-Identifier: Unlicensed
+
+pragma solidity ^0.8.0;
+
+import "./MapleBaCoin.sol";
+import "./MapleBankon.sol";
+
+contract Solve {
+    MapleBankon bank;
+    MapleBaCoin coin;
+
+    constructor(address mpbnk, address mpbc) {
+        bank = MapleBankon(mpbnk);
+        coin = MapleBaCoin(mpbc);
+    }
+
+    // Required function
+    function receiveCoin(address from, uint256 amount) public {
+        // Stub
+    }
+
+    // Required function
+    function attack() public {
+        // Attack Code Here
+        bank.tap();
+    }
+}     
+    </textarea><br>
+    <input type="submit" value="Deploy Contract (Might take a few seconds, be patient)">
+</form>
+</html>

@@ -1,0 +1,9 @@
+name: "bored-hacker"
+author: "Dontmindme"
+category: misc
+description: Some hacker has been going around saying that they've hacked our Maple Story account and stolen all our Mesos. Find me their name, in the format maple{firstname_lastname}. 
+value: 500
+type: dynamic
+
+flags:
+  - maple{patrick_mapleson}

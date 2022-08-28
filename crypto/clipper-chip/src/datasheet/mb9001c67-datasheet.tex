@@ -1,0 +1,143 @@
+\documentclass{article}
+
+\usepackage{fontspec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{svg}
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage[total={7in, 8in}, headsep=.2in]{geometry}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fourier}
+\usepackage{pbox}
+\usepackage{calc}
+\usepackage{lipsum}
+
+\setmainfont{DejaVu Sans}
+
+\pagestyle{fancy}
+\fancyhead[L]{\includegraphics[height=3em]{logo.png}}
+\fancyhead[R]{\textbf{MB9001C67}}
+\fancyfoot[C]{}
+\fancyfoot[L]{Copyright © LOLOLOL Maple Instruments}
+\fancyfoot[R]{\thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{2pt}
+\setlength{\headheight}{3em}
+
+\begin{document}
+
+{
+  \bf
+  \noindent
+  \Huge
+  MB9001C67
+
+  \noindent
+  \Large
+  ULTRA SECURE CRYPTOGRAPHIC ACCELERATOR
+
+  \noindent\rule{\textwidth}{2pt}
+}
+
+\begin{multicols}{2}
+
+  \section{Description}
+
+  The Maple Instruments MB9001C67 offers unparalleled information security for the most critical applications.  Using our trade secret cipher, it provides high-throughput confidentiality at low power.
+
+  \section{Features}
+
+  \begin{itemize}
+    \item 67-bit, military-grade encryption
+    \item Proprietary cipher for increased security
+          \begin{itemize}
+            \item No software implementations: impossible for hackers to reverse engineer
+          \end{itemize}
+    \item Diverse applications
+          \begin{itemize}
+            \item Copy protection for multimedia devices, game consoles
+            \item Authenticate commands for nuclear missile silos, military communications (see application note AN0237, ``Using the MB90001C76 in the CRM~114 Discriminator'')
+            \item Blockchain? I don't know what that is they told me to put it in here
+          \end{itemize}
+    \item Simple operation: identical circuit for encryption and decryption
+  \end{itemize}
+
+  \section{Package options}
+
+  \framebox[\columnwidth]{
+    \begin{tabular}{c}
+      \includesvg[height=0.5in]{soic8.svg}\\
+      SOIC-8
+    \end{tabular}
+  }
+
+  \section{Pinout and functions}
+
+  \framebox[\columnwidth]{
+    \begin{tabular}{c}
+      {\tiny \textbf{(TOP VIEW)}}\vspace{0.5em}\\
+      \includesvg[inkscapelatex=false, inkscapearea=page, width=1.25in]{pinout.svg}\\
+    \end{tabular}
+  }
+
+  \begin{center}
+    \footnotesize
+    \begin{tabular}{lll}
+      \toprule
+      \multicolumn{2}{l}{\textbf{Pin}} & \textbf{Description} \\
+      \midrule
+      1 & MODE & Select loading new key/encryption \\
+      2 & IN & Plaintext or ciphertext input \\
+      4 & GND & Ground \\
+      5 & $\overline{\mbox{RST}}$ & Reset, active low \\
+      7 & OUT & Ciphertext or plaintext output \\
+      8 & V\textsubscript{CC} & Positive supply \\
+      \bottomrule
+    \end{tabular}
+  \end{center}
+
+  \section{Detailed description}
+
+  To begin an encryption or decryption operation, hold the device in reset for at least one clock cycle.  For the next 67 cycles, hold MODE high and provide the key (most significant bit first) on IN.  The device will begin encrypting the plaintext or decrypting the ciphertext on the next cycle.
+
+  \begin{center}
+    \includesvg[inkscapelatex=false, width=3in]{timing.svg}
+  \end{center}
+
+  Note that the device begins encrypting immediately after loading the key.  The sender and receiver must be synchronized in order to correctly encode and decode messages.
+
+  \colorbox{pink}{\parbox{\columnwidth-2\fboxsep}{
+      \begin{tabular}{p{0.5em}p{{\dimexpr \linewidth-2\tabcolsep-2em}}}
+        \warning & Never reuse the same key for different messages.
+      \end{tabular}
+    }}
+
+  \pagebreak
+  \section{Encryption algorithm detail}
+
+  The MB9001C67 encryption algorithm is based on a ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu egestas augue. Nullam sed nisl et ligula imperdiet pharetra ac vitae tellus. Aliquam sit amet placerat urna. Sed sit amet lacus nec elit suscipit interdum ut id enim.
+
+  \lipsum[1]
+
+  Nulla rutrum est quam, quis dictum magna blandit id. Phasellus diam nisi, molestie non consectetur vitae, dignissim id quam. Curabitur eu dignissim elit. Ut blandit felis quis imperdiet elementum. Aenean placerat metus at vehicula ultrices. Sed in fermentum lorem. Phasellus est swag non posuere auctor. Suspendisse eleifend accumsan aliquet. Aenean efficitur erat eget ex tincidunt euismod. Aenean eu ipsum dignissim, lacinia ex vel, semper quam. Integer pulvinar scelerisque erat, non ullamcorper dui efficitur a. Integer tempor id lorem nec sodales.
+
+  \lipsum[2]
+
+  \begin{figure}[H]
+    \centering
+    \vspace{15em}
+    \caption{Internal structure (LFSR-based)}
+  \end{figure}
+
+  Praesent a leo tortor. Morbi non laoreet sem, sed cursus lectus. Phasellus mollis viverra ipsum id sollicitudin. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam augue, auctor eget luctus eu, malesuada et lacus. Vestibulum ante SSL~added~and~removed~here luctus et ultrices posuere cubilia curae; Suspendisse luctus ornare leo sed venenatis. Fusce vel tortor a purus posuere pharetra. Duis quis dui non dui molestie ultricies. Curabitur finibus urna erat, a efficitur magna consequat vitae. Sed nisi risus, commodo eu sem vel, commodo facilisis sem. Nunc vehicula sem lorem, eget placerat erat luctus ut. Proin suscipit feugiat faucibus. Quisque non egestas eros. Duis interdum tincidunt lectus. Ut at eros in magna faucibus feugiat.
+
+  \lipsum[4]
+
+\end{multicols}
+
+\end{document}
