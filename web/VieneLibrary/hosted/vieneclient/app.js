@@ -71,12 +71,6 @@ app.post("/findaviene", (req, res) => {
   } else {
     res.send(template("", "https://www.youtube.com/watch?v=dQw4w9WgXcQ"));
   }
-  let a = {};
-  if (typeof(a.__proto__.headers) != 'undefined'){
-    console.log("resetting proto-values");
-    delete a.__proto__.headers;
-    console.log(a.__proto__.headers);
-  }
 });
 
 //Helper to make sure all viene submissions are standardized
