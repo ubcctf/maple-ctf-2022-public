@@ -37,7 +37,7 @@ const IERC20 = fs.readFileSync(`./contracts/IERC20.sol`, 'utf8');
 const IERC20META = fs.readFileSync(`./contracts/IERC20Metadata.sol`, 'utf8');
 
 const db = createClient({
-  url: 'redis://:'
+  url: 'redis://:tfdSWdM6BMPD@maplebacoin-redis-master.challenges.svc.cluster.local:6379'
 });
 /* const db = createClient() */
 
