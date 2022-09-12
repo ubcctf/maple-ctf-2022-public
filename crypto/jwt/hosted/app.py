@@ -11,7 +11,7 @@ import os
 def create_app():
     app = Flask(__name__)
     CORS(app)
-    app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:zPzkBOZfXR@jwt-mysql.challenges.svc.cluster.local:3306/jwtdb"
+    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/jwt.db"
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
     app.config["SECRET_KEY"] = os.urandom(32).hex()
 
